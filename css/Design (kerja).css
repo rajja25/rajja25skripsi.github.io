@@ -1,0 +1,544 @@
+.iconmonitor {
+  	width: 18px;
+  	position: relative;
+  	height: 16px;
+}
+.teknologi {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 30px;
+  	gap: 10px;
+}
+.desain {
+  	position: relative;
+}
+.icondesign {
+  	width: 14px;
+  	position: relative;
+  	height: 14px;
+}
+.iconspeaking {
+  	width: 22px;
+  	position: relative;
+  	height: 19px;
+}
+.iconeditor {
+  	width: 13px;
+  	position: relative;
+  	height: 11px;
+}
+.iconplanner {
+  	width: 16px;
+  	position: relative;
+  	height: 21.8px;
+}
+.iconmusic {
+  	width: 19px;
+  	position: relative;
+  	height: 18.8px;
+}
+.iconconsulting {
+  	width: 20px;
+  	position: relative;
+  	height: 18px;
+}
+.iconwriting {
+  	width: 18px;
+  	position: relative;
+  	height: 20px;
+}
+.kategori {
+  	position: absolute;
+  	top: 88px;
+  	left: 0;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	background-color: #fff;
+  	width: 100%;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 0px;
+  	box-sizing: border-box;
+	gap: 24px;
+}
+
+.kategori-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.kategori-btn:hover {
+  background-color: #ea580c;
+  color: white;
+}
+
+.kategori-btn:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.kategori-btn.aktif {
+  background-color: #f97316;
+  color: white;
+}
+
+.kategori-btn.aktif img {
+  filter: brightness(0) invert(1);
+}
+
+.icondesign1 {
+  	width: 22px;
+  	position: relative;
+  	height: 20px;
+}
+.desain1 {
+  	flex: 1;
+  	position: relative;
+}
+.icondesign-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+  	text-align: left;
+  	font-size: 24px;
+  	color: #1f2937;
+}
+.iconhome {
+  	width: 16px;
+  	position: relative;
+  	height: 18px;
+}
+.headline-programa {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 20px;
+  	cursor: pointer;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #111827;
+}
+.loker-child {
+  	width: 290px;
+  	position: relative;
+  	border-radius: 10px;
+    border: 2px solid #1f2937;
+  	height: 111px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.pt-xyz {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+}
+.entry-data {
+  	align-self: stretch;
+  	position: relative;
+}
+.icontas-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 10px;
+  	gap: 10px;
+  	color: #1f2937;
+}
+.iconmoney {
+  	width: 21px;
+  	position: relative;
+  	height: 21px;
+}
+.job {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	gap: 10px;
+}
+.iconloker {
+  	width: 19.2px;
+  	position: relative;
+  	max-height: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.button {
+  border-radius: 7.66px;
+  text-decoration: none;
+  background-color: #f97316;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 9.6px 11.5px;
+  gap: 9.6px;
+  font-size: 13.41px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #cdcdcd;
+}
+
+.button:active {
+  background-color: #ffb881;
+}
+
+.data {
+  	width: 258px;
+  	height: 237px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 10px 0px;
+  	box-sizing: border-box;
+  	gap: 10px;
+}
+.loker {
+  	width: 304px;
+  	border-radius: 10px;
+  	background-color: #fffdfb;
+  	border: 2px solid #f97316;
+  	box-sizing: border-box;
+  	height: 394px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 20px 12px;
+  	gap: 0px;
+}
+.loker-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 64px;
+}
+.paling-populer {
+  	position: absolute;
+  	top: 188px;
+  	left: calc(50% - 620px);
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 1240px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 24px 20px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	text-align: center;
+  	font-size: 14px;
+}
+.freework-merupakan-platform-fr-wrapper {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 10px;
+  	font-size: 14px;
+  	color: #1f2937;
+}
+.iconlinkedin {
+  	width: 15.3px;
+  	position: relative;
+  	height: 15.3px;
+}
+.iconyoutube {
+  	width: 17px;
+  	position: relative;
+  	height: 12px;
+}
+.icontiktok {
+  	width: 15px;
+  	position: relative;
+  	height: 17px;
+}
+.iconinstagram {
+  	width: 16px;
+  	position: relative;
+  	height: 16px;
+}
+.iconfacebook {
+  	width: 14.8px;
+  	position: relative;
+  	height: 14.8px;
+}
+.sosmed {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 12px 0px;
+  	gap: 46px;
+}
+.freework-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px;
+  	gap: 12px;
+}
+.syarat-ketentuan-freelancer {
+  	margin: 0;
+}
+.syarat-ketentuan-freelancer-container {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	color: #1f2937;
+}
+.untuk-freelancer-parent {
+  	width: 198px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 23px;
+}
+.untuk-klien-parent {
+  	width: 198px;
+  	height: 194px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 23px;
+}
+.footer-pilihan {
+  	align-self: stretch;
+  	border-top: 3px solid #1f2937;
+  	border-bottom: 3px solid #1f2937;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 20px 0px;
+  	gap: 62px;
+}
+.iconcopyright {
+  	width: 22px;
+  	position: relative;
+  	height: 22px;
+  	opacity: 0.5;
+}
+.copyright-2024-freework {
+  	position: relative;
+  	opacity: 0.5;
+}
+.iconcopyright-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 10px;
+  	gap: 10px;
+  	font-size: 14px;
+  	color: #1f2937;
+}
+.footer-pilihan-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 0px;
+  	gap: 20px;
+  	font-size: 16px;
+}
+.footer {
+  	position: absolute;
+  	top: 1704px;
+  	left: 0px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	background-color: #f4f4f4;
+  	width: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 32px;
+  	color: #1f2937;
+}
+.wrapper {
+  	width: 46px;
+  	border-radius: 10px;
+  	background-color: #f97316;
+  	height: 46px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	box-sizing: border-box;
+  	color: #fff;
+}
+.container {
+  	width: 46px;
+  	border-radius: 10px;
+  	height: 46px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	box-sizing: border-box;
+}
+.frame-parent {
+  	border-bottom: 1px solid #000;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 8px 0px;
+  	gap: 13px;
+}
+.iconback-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 17px;
+  	text-align: center;
+}
+.next-halaman {
+  	position: absolute;
+  	top: 1582px;
+  	left: calc(50% - 296px);
+  	width: 592px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	text-align: right;
+}
+.logo-brand {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	font-size: 32px;
+}
+.iconsearch {
+  	width: 17.2px;
+  	position: relative;
+  	height: 17.2px;
+}
+.search {
+  	width: 384px;
+  	border-radius: 5.75px;
+  	background-color: #f4f4f4;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 9.6px 19.2px;
+  	gap: 11.5px;
+  	color: rgba(109, 114, 128, 0.5);
+}
+.iconglobal {
+  	width: 20px;
+  	position: relative;
+  	height: 20px;
+}
+.bahasa {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+}
+.iconlogin {
+  	width: 19.2px;
+  	position: relative;
+  	height: 17.2px;
+}
+.button18 {
+  	border-radius: 7.66px;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 9.6px 11.5px;
+  	gap: 9.6px;
+  	font-size: 13.41px;
+  	color: #ea580c;
+}
+.navbar-user {
+  	position: absolute;
+  	top: 0px;
+  	left: 0;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	background-color: #ea580c;
+  	width: 100%;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 0px;
+  	box-sizing: border-box;
+  	gap: 48px;
+  	color: #fff;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #CDCDCD;
+}
+
+.nav-link:active {
+  color: #1F2937;
+}
+
+.desain-kerja {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f4f4f4;
+  	height: 2206px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #000;
+  	font-family: Poppins;
+}
+

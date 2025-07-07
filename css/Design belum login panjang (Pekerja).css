@@ -1,0 +1,885 @@
+.iconmonitor {
+  	width: 22px;
+  	position: relative;
+  	height: 20px;
+}
+.teknologi {
+  	flex: 1;
+  	position: relative;
+}
+.iconmonitor-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+  	font-size: 24px;
+  	color: #1f2937;
+}
+.iconhome {
+  	width: 16px;
+  	position: relative;
+  	height: 18px;
+}
+.text {
+  	position: relative;
+}
+.headline-programa {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 20px;
+  	cursor: pointer;
+  	color: #111827;
+}
+/* .frame-child {
+  	width: 101px;
+  	border-radius: 90px;
+  	height: 101px;
+} */
+
+.frame-child {
+  width: 101px;
+  height: 101px;
+  border-radius: 90px;
+  background-color: #f97316;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.icon-user {
+  width: 50px;
+  height: 50px;
+}
+
+.michael1 {
+  	width: 147px;
+  	position: relative;
+  	display: inline-block;
+}
+.frame-parent {
+  	width: 125px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 9px;
+  	text-align: center;
+  	font-size: 24px;
+}
+.iconchat {
+  	width: 19.2px;
+  	position: relative;
+  	height: 17.2px;
+}
+/* .button {
+  	border-radius: 7.66px;
+  	background-color: #f97316;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 9.6px 11.5px;
+  	gap: 9.6px;
+} */
+
+.button {
+  border-radius: 7.66px;
+  text-decoration: none;
+  background-color: #f97316;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 9.6px 11.5px;
+  gap: 9.6px;
+  font-size: 13.41px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #cdcdcd;
+}
+
+.button:active {
+  background-color: #ffb881;
+}
+
+.button-freelancer {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 33px;
+  	font-size: 13.41px;
+  	color: #fff;
+}
+.iconstar {
+  	width: 20px;
+  	position: relative;
+  	height: 19px;
+}
+.iconstar-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 12px;
+}
+.iconlokasi {
+  	width: 21px;
+  	position: relative;
+  	height: 30px;
+}
+.iconlokasi-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 12px;
+}
+.icontas {
+  	width: 20px;
+  	position: relative;
+  	height: 18px;
+}
+.iconmoney {
+  	width: 21px;
+  	position: relative;
+  	height: 21px;
+}
+.iconmoney-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+}
+.iconbenar {
+  	width: 20px;
+  	position: relative;
+  	height: 15px;
+}
+.michael {
+  	width: 378px;
+  	height: 497px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 20px;
+}
+.keahlian {
+  	width: 433px;
+  	position: relative;
+  	display: inline-block;
+}
+.machine-learningai-wrapper {
+  	position: absolute;
+  	top: 12px;
+  	left: 9px;
+  	border-radius: 10px;
+  	background-color: #ffe8d1;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+.chat-bot-wrapper {
+  	position: absolute;
+  	top: 12px;
+  	left: 204px;
+  	border-radius: 10px;
+  	background-color: #ffe8d1;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+.nlp-wrapper {
+  	position: absolute;
+  	top: 12px;
+  	left: 304px;
+  	border-radius: 10px;
+  	background-color: #ffe8d1;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+.frame-container {
+  	align-self: stretch;
+  	position: relative;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	height: 68px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	font-size: 16px;
+}
+.keahlian-parent {
+  	width: 501px;
+  	height: 152px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 36px;
+  	text-align: left;
+  	font-size: 24px;
+}
+.machine-learningai-chat-bot-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 36px;
+}
+.halo-saya-michael {
+  	margin: 0;
+}
+.sistem-rekomendasi-berbasis {
+  	margin-bottom: 0px;
+}
+.sistem-rekomendasi-berbasis-ml {
+  	margin: 0;
+  	font-family: inherit;
+  	font-size: inherit;
+  	padding-left: 19px;
+}
+.halo-saya-michael-container {
+  	position: absolute;
+  	top: 12px;
+  	left: 12px;
+  	display: inline-block;
+  	width: 593px;
+}
+.halo-saya-michael-seorang-fr-wrapper {
+  	width: 621px;
+  	position: relative;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	height: 550px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	text-align: justify;
+  	font-size: 14px;
+}
+.iconup {
+  	width: 19.2px;
+  	height: 8px;
+}
+.button4 {
+  border-radius: 7.66px;
+  text-decoration: none;
+  background-color: #f97316;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 9.6px 11.5px;
+  gap: 9.6px;
+  font-size: 13.41px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button4:hover {
+  background-color: #cdcdcd;
+}
+
+.button4:active {
+  background-color: #ffb881;
+}
+.frame-div {
+  	align-self: stretch;
+  	height: 354px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 36px;
+  	text-align: left;
+  	font-size: 24px;
+}
+.frame-group {
+  	width: 633px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 13px;
+  	text-align: justify;
+  	font-size: 32px;
+}
+.vector-icon {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.icon {
+  	width: 37px;
+  	position: relative;
+  	height: 34px;
+}
+.michael-parent {
+  	align-self: stretch;
+  	height: 936px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 61px;
+}
+.portofolio {
+  	width: 161px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.portofolio-wrapper {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+}
+.frame-item {
+  	width: 613px;
+  	position: relative;
+  	border-radius: 10px;
+    border: 2px solid #1f2937;
+  	height: 280px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.frame-parent2 {
+  	align-self: stretch;
+  	background-color: #fff;
+  	overflow-x: auto;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 20px;
+}
+.frame-parent1 {
+  	width: 1200px;
+  	height: 437px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 24px 20px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	font-size: 32px;
+}
+.review {
+  	width: 1274px;
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.review-wrapper {
+  	width: 1178px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	text-align: center;
+  	font-size: 24px;
+}
+.tugas-selesai-wrapper {
+  	width: 550px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	box-sizing: border-box;
+}
+.dalam-pengerjaan-wrapper {
+  	width: 549px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	box-sizing: border-box;
+}
+.daniel-w {
+  	margin: 0;
+  	font-size: 16px;
+}
+.blank-line3 {
+  	margin: 0;
+  	font-size: 24px;
+}
+.daniel-w-container {
+  	width: 510px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.daniel-w-proyek-chatbot-cus-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 24px 20px;
+}
+.rafiq-f-container {
+  	width: 510px;
+  	position: relative;
+  	display: inline-block;
+  	height: 213px;
+  	flex-shrink: 0;
+}
+.rafiq-f-proyek-chatbot-pela-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 606px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	height: 261px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 24px 20px;
+  	box-sizing: border-box;
+}
+.laras-a-sistem-klasifikasi-wrapper {
+  	position: absolute;
+  	top: 272px;
+  	left: 0px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 24px 20px;
+}
+.yuni-r-container {
+  	width: 510px;
+  	position: relative;
+  	display: inline-block;
+  	height: 197px;
+  	flex-shrink: 0;
+}
+.yuni-r-prediksi-penjualan-d-wrapper {
+  	position: absolute;
+  	top: 272px;
+  	left: 606px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	height: 237px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 24px 20px;
+  	box-sizing: border-box;
+}
+.pekerjaan-cepat-presisi {
+  	margin: 0;
+  	font-size: 14px;
+}
+.william-t-model-prediksi-pe-wrapper {
+  	position: absolute;
+  	top: 816px;
+  	left: 0px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	height: 237px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 24px 20px;
+  	box-sizing: border-box;
+  	font-size: 16px;
+}
+.putri-n-pembuatan-chatbot-i-wrapper {
+  	position: absolute;
+  	top: 544px;
+  	left: 0px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 550px;
+  	height: 237px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 20px;
+  	box-sizing: border-box;
+}
+.frame-parent4 {
+  	width: 1156px;
+  	position: relative;
+  	height: 1070px;
+  	font-size: 14px;
+}
+.berikutnya {
+  	align-self: stretch;
+  	position: relative;
+}
+.wrapper {
+  	width: 46px;
+  	border-radius: 10px;
+  	background-color: #f97316;
+  	height: 46px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	box-sizing: border-box;
+  	color: #fff;
+}
+.container {
+  	width: 46px;
+  	border-radius: 10px;
+  	height: 46px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	box-sizing: border-box;
+}
+.frame-parent5 {
+  	border-bottom: 1px solid #000;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 8px 0px;
+  	gap: 13px;
+}
+.iconback-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 17px;
+  	text-align: center;
+}
+.next-halaman {
+  	width: 592px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	text-align: right;
+}
+.frame-parent3 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	padding: 20px;
+  	gap: 20px 56px;
+}
+.paling-populer {
+  	position: absolute;
+  	top: 124px;
+  	left: calc(50% - 620px);
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 1240px;
+  	height: 3030px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 20px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	color: #000;
+}
+.logo-brand {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	font-size: 32px;
+}
+.iconsearch {
+  	width: 17.2px;
+  	position: relative;
+  	height: 17.2px;
+}
+.search {
+  	width: 384px;
+  	border-radius: 5.75px;
+  	background-color: #f4f4f4;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 9.6px 19.2px;
+  	gap: 11.5px;
+  	color: rgba(109, 114, 128, 0.5);
+}
+.iconglobal {
+  	width: 20px;
+  	position: relative;
+  	height: 20px;
+}
+.button6 {
+  	border-radius: 7.66px;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 9.6px 11.5px;
+  	gap: 9.6px;
+  	font-size: 13.41px;
+  	color: #ea580c;
+}
+.navbar-user {
+  	position: absolute;
+  	top: 0px;
+  	left: 0;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	background-color: #ea580c;
+  	width: 100%;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 0px;
+  	box-sizing: border-box;
+  	gap: 48px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #CDCDCD;
+}
+
+.nav-link:active {
+  color: #1F2937;
+}
+
+.freework-merupakan-platform-fr-wrapper {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 10px;
+  	font-size: 14px;
+  	color: #1f2937;
+}
+.iconlinkedin {
+  	width: 15.3px;
+  	position: relative;
+  	height: 15.3px;
+}
+.iconyoutube {
+  	width: 17px;
+  	position: relative;
+  	height: 12px;
+}
+.icontiktok {
+  	width: 15px;
+  	position: relative;
+  	height: 17px;
+}
+.iconinstagram {
+  	width: 16px;
+  	position: relative;
+  	height: 16px;
+}
+.iconfacebook {
+  	width: 14.8px;
+  	position: relative;
+  	height: 14.8px;
+}
+.sosmed {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 12px 0px;
+  	gap: 46px;
+}
+.freework-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px;
+  	gap: 12px;
+}
+.syarat-ketentuan-freelancer-container {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	color: #1f2937;
+}
+.untuk-freelancer-parent {
+  	width: 198px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 23px;
+}
+.untuk-klien-parent {
+  	width: 198px;
+  	height: 194px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 23px;
+}
+.footer-pilihan {
+  	align-self: stretch;
+  	border-top: 3px solid #1f2937;
+  	border-bottom: 3px solid #1f2937;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 20px 0px;
+  	gap: 62px;
+}
+.iconcopyright {
+  	width: 22px;
+  	position: relative;
+  	height: 22px;
+  	opacity: 0.5;
+}
+.copyright-2024-freework {
+  	position: relative;
+  	opacity: 0.5;
+}
+.iconcopyright-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 10px;
+  	gap: 10px;
+  	font-size: 14px;
+  	color: #1f2937;
+}
+.footer-pilihan-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 0px;
+  	gap: 20px;
+  	font-size: 16px;
+}
+.footer {
+  	position: absolute;
+  	bottom: 0px;
+  	left: 0;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	background-color: #f4f4f4;
+  	width: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 32px;
+    color: #1f2937;
+}
+.teknologi-michael-belum-login {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f4f4f4;
+  	height: 3692px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #fff;
+  	font-family: Poppins;
+}
+
+.icon {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.vector-icon {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s ease;
+}
+
+/* .icon:hover .vector-icon {
+  transform: scale(1.1);
+} */

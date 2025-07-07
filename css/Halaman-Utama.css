@@ -1,0 +1,676 @@
+/* @media (max-width: 768px) {
+  .freelancer-parent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-user {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+  }
+
+  .program {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .value-parent {
+    flex-direction: column;
+  }
+} */
+
+
+.text {
+  	align-self: stretch;
+  	position: relative;
+}
+.headline-programa {
+  	width: 1041px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	font-size: 16px;
+}
+.freelancer-child {
+  	/* position: absolute; */
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 10px 10px 0 0;
+	border: 2px solid #1f2937;
+	border-bottom: 2px solid #1f2937;
+  	width: 286px;
+  	height: 252px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.michael {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+}
+.iconstar {
+  	width: 20px;
+  	position: relative;
+  	height: 19px;
+}
+.rating-49 {
+  	flex: 1;
+  	position: relative;
+}
+.iconstar-parent {
+  	width: 100px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+}
+.icontas {
+  	width: 20px;
+  	position: relative;
+  	height: 18px;
+}
+.iconbenar {
+  	width: 20px;
+  	position: relative;
+  	height: 15px;
+}
+.job {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 10px;
+  	gap: 10px;
+}
+.rp-1000000proyek {
+  	position: relative;
+  	font-size: 16px;
+  	text-align: left;
+}
+.iconuser {
+  	width: 19.2px;
+  	position: relative;
+  	height: 17.2px;
+    color: white;
+}
+.button {
+  border-radius: 7.66px;
+  text-decoration: none;
+  background-color: #f97316;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 9.6px 11.5px;
+  gap: 9.6px;
+  font-size: 13.41px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #cdcdcd;
+}
+
+.button:active {
+  background-color: #ffb881;
+}
+
+.data {
+  	position: absolute;
+  	top: 0px;
+  	left: 39px;
+  	width: 212px;
+  	height: 209px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 12px 0px;
+  	box-sizing: border-box;
+  	gap: 6px;
+}
+.data-wrapper {
+  	position: absolute;
+  	top: 240px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #ffe8d1;
+  	border: 2px solid #1f2937;
+  	box-sizing: border-box;
+  	width: 290px;
+  	height: 209px;
+  	overflow: hidden;
+}
+.freelancer {
+  	width: 290px;
+  	position: relative;
+  	height: 449px;
+  	flex-shrink: 0;
+}
+.freelancer-parent {
+  	align-self: stretch;
+  	overflow-x: auto;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 30px;
+  	text-align: center;
+  	font-size: 14px;
+}
+.paling-populer {
+  	position: absolute;
+  	top: 124px;
+  	left: calc(50% - 620px);
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 1240px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 24px 20px;
+  	box-sizing: border-box;
+  	gap: 12px;
+}
+.foto-project-pekerjaan {
+  	width: 1186px;
+  	position: relative;
+  	display: inline-block;
+}
+.dsc02955-2-icon {
+  	width: 250px;
+  	position: relative;
+  	border-radius: 10px;
+	border: 2px solid #f97316;
+  	height: 140px;
+  	object-fit: cover;
+}
+
+@keyframes scroll-loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.dsc02955-2-parent {
+  	/* position: absolute;
+  	top: 0px;
+  	left: -112px; */
+  	width: 4180px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 12px;
+}
+.fotofoto {
+  	align-self: stretch;
+  	position: relative;
+  	height: 160px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+
+.scroll-wrapper {
+  width: fit-content;
+  display: flex;
+  animation: scroll-loop 10s linear infinite;
+}
+
+.foto-project-pekerjaan-parent {
+  	position: absolute;
+  	top: 741px;
+  	left: calc(50% - 620px);
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 1240px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 24px 20px;
+  	box-sizing: border-box;
+  	gap: 20px;
+}
+.kamu-sedang-butuh {
+  	margin: 0;
+}
+.headline-programa2 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	font-size: 16px;
+}
+.program-child {
+  	width: 290px;
+  	position: relative;
+  	border-radius: 10px;
+	border: 2px solid #000000;
+  	height: 111px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.title-prakerja {
+  	position: relative;
+}
+.hero-programa1 {
+  	align-self: stretch;
+  	border-radius: 10px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.desc-programa1 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	text-align: center;
+}
+.button12 {
+  border-radius: 7.66px;
+  background-color: #f97316; /* warna default */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 9.6px 11.5px;
+  gap: 9.6px;
+  font-size: 13.41px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Saat mouse hover */
+.button12:hover {
+  background-color: #cdcdcd;
+}
+
+/* Saat diklik (aktif) */
+.button12:active {
+  background-color: #ffb881;
+}
+
+.program1 {
+  	width: 304px;
+  	border-radius: 10px;
+  	background-color: #fffdfb;
+  	border: 2px solid #f97316;
+  	box-sizing: border-box;
+  	height: 353.2px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 20px 12px;
+  	gap: 0px;
+}
+.program {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 40px;
+  	color: #000;
+}
+.title-parent {
+  	position: absolute;
+  	top: 1065px;
+  	left: calc(50% - 620px);
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 1240px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 24px 20px;
+  	box-sizing: border-box;
+  	gap: 20px;
+}
+.mendukung-setiap-individu {
+  	width: 198px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.visi-keterangan {
+  	align-self: stretch;
+  	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 2px solid #f97316;
+  	box-sizing: border-box;
+  	height: 180px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 20px;
+}
+.visi-icon {
+  	width: 100%;
+  	border-radius: 90px;
+  	height: 17px;
+	color: #f97316;
+}
+.visi {
+  	width: 225px;
+  	box-shadow: 0px 0px 4px #000;
+  	border-radius: 10px;
+  	background-color: #ffe8d1;
+  	border: 1px solid #f97316;
+  	box-sizing: border-box;
+  	height: 90px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 6px 12px;
+  	gap: 6px;
+  	margin-top: -33px;
+  	position: relative;
+  	font-size: 16px;
+}
+.value {
+  	width: 250px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.value-parent {
+  	width: 880px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	gap: 40px 65px;
+  	text-align: center;
+  	font-size: 14px;
+  	color: #000;
+}
+.keunggulan-freework-parent {
+  	position: absolute;
+  	top: 1622.15px;
+  	left: calc(50% - 620px);
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 1240px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 24px 20px;
+  	box-sizing: border-box;
+  	gap: 20px;
+}
+
+/* .value {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s ease;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+} */
+
+.value:hover {
+  box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transform: translateY(-4px);
+}
+
+
+.logo-brand {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	font-size: 32px;
+}
+.iconsearch {
+  	width: 17.2px;
+  	position: relative;
+  	height: 17.2px;
+}
+.search {
+  	width: 384px;
+  	border-radius: 5.75px;
+  	background-color: #f4f4f4;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 9.6px 19.2px;
+  	gap: 11.5px;
+  	color: rgba(109, 114, 128, 0.5);
+}
+.iconglobal {
+  	width: 20px;
+  	position: relative;
+  	height: 20px;
+}
+.bahasa {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+}
+.button18 {
+  	border-radius: 7.66px;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 9.6px 11.5px;
+  	gap: 9.6px;
+  	font-size: 13.41px;
+  	color: #ea580c;
+}
+.navbar-user {
+  	position: absolute;
+  	top: 0px;
+  	left: 0%;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	background-color: #ea580c;
+  	width: 100%;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 0px;
+  	box-sizing: border-box;
+  	gap: 48px;
+  	font-size: 16px;
+  	color: #fff;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #CDCDCD;
+}
+
+/* .nav-link:visited {
+  color: #1F2937;
+  transition: color 0.1s ease;
+} */
+
+.freework-merupakan-platform-fr-wrapper {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 10px;
+  	font-size: 14px;
+  	color: #1f2937;
+}
+.iconlinkedin {
+  	width: 15.3px;
+  	position: relative;
+  	height: 15.3px;
+}
+.iconyoutube {
+  	width: 17px;
+  	position: relative;
+  	height: 12px;
+}
+.icontiktok {
+  	width: 15px;
+  	position: relative;
+  	height: 17px;
+}
+.iconinstagram {
+  	width: 16px;
+  	position: relative;
+  	height: 16px;
+}
+.iconfacebook {
+  	width: 14.8px;
+  	position: relative;
+  	height: 14.8px;
+}
+.sosmed {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 12px 0px;
+  	gap: 46px;
+}
+.freework-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px;
+  	gap: 12px;
+}
+.syarat-ketentuan-freelancer-container {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	color: #1f2937;
+}
+.untuk-freelancer-parent {
+  	width: 198px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 23px;
+}
+.untuk-klien-parent {
+  	width: 198px;
+  	height: 194px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 23px;
+}
+.footer-pilihan {
+  	align-self: stretch;
+  	border-top: 3px solid #1f2937;
+  	border-bottom: 3px solid #1f2937;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 20px 0px;
+  	gap: 62px;
+}
+.iconcopyright {
+  	width: 22px;
+  	position: relative;
+  	height: 22px;
+  	opacity: 0.5;
+}
+.copyright-2024-freework {
+  	position: relative;
+  	opacity: 0.5;
+}
+.iconcopyright-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 10px;
+  	gap: 10px;
+  	font-size: 14px;
+  	color: #1f2937;
+}
+.footer-pilihan-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 0px;
+  	gap: 20px;
+  	font-size: 16px;
+}
+.footer {
+  	position: absolute;
+  	top: 2320px;
+  	left: 0px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  	background-color: #f4f4f4;
+  	width: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 32px;
+  	color: #1f2937;
+}
+.utama-belom-login {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f9fafb;
+  	height: 2822px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 24px;
+  	color: #1f2937;
+  	font-family: Poppins;
+}
+
